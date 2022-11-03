@@ -8,9 +8,11 @@
 </head>
 <body>
     <h1>Hello Upload Image API</h1>
-    <form method="post">
+
+    <form method="post" action="http://localhost:3000/upload_image">
         Name: <input type="text" name="name"><br>
-        File: <input type="file" name="file"><br>
+        File: <input type="text" name="image"><br>
+        <input type="button" value="Submit">
     </form>
 </body>
 </html>
